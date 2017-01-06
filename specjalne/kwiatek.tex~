@@ -1,0 +1,44 @@
+\documentclass[12pt, a4paper]{article}
+
+%polskie znaki
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+
+%matematyczne znaki i strza?eczki
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{title}{%
+  %\setlength{\headheight}{22pt}%
+  \fancyhf{}% No header/footer
+  %\renewcommand{\headrulewidth}{0pt}% No header rule
+  %\renewcommand{\footrulewidth}{0pt}% No footer rule
+  \fancyfoot[L]{FIZYKA DLA MEDYKA 2016}% Page number in Centre of footer
+  \fancyhead[L]{Wykład specjalny}
+
+}%
+%nowozdefiniowane symbole
+\newcommand{\n}{\mathbb{N}}
+\newcommand{\re}{\mathbb{R}}
+\newcommand{\limm}{\lim \limits_{x\rightarrow x_0}}
+\usepackage{graphicx}
+
+
+\usepackage[left=1 cm, right=1 cm, top=2 cm, bottom=2 cm]{geometry}
+
+\begin{document}
+
+\title{Promieniowanie synchrotronowe w służbie człowieka}
+\author{prof. dr hab. Wojciech M. Kwiatek \\Narodowe Centrum Promieniowania Synchrotronowego SOLARIS, \\Polskie Towarzystwo Promieniowania Synchrotronowego}
+\date {}
+\maketitle
+\thispagestyle{title}
+\textbf{Niedziela 3.04, 11:50 - 13:20}
+\\
+
+Promieniowanie synchrotronowe z uwagi na swoje właściwości wykorzystywane jest przez liczne techniki badawcze poczynając od metod emisyjnych poprzez techniki rozproszeniowe i kończąc na technikach absorpcyjnych. Wykorzystywane metody analityczne pozwalają na prowadzenie badań w zarówno w skali makro jak i mikro a nawet nano. Prowadzenie badań metodami fizyki dla potrzeb zwalczania chorób nowotworowych i innych patologii poprzez obrazowanie spektroskopowe układów tkankowych, komórkowych (badając wewnętrzną strukturę komórek, organizację cytoszkieletu, własności mechaniczne i biochemiczne) oraz badanie na poziomie molekularnym stanowi ważny wkład do rozwoju metod diagnostycznych chorób cywilizacyjnych XXI wieku. Podczas wykładu omówiona zostanie zasada powstawania promieniowania synchrotronowego, zasada działania synchrotronu ze szczególnym uwzględnieniem Narodowego Źródła Promieniowania Synchrotronowego - Synchrotronu SOLARIS w Krakowie oraz wykorzystanie promieniowania synchrotronowego do określania składu pierwiastkowego, stopni utleniania wybranych pierwiastków oraz zmian ich otoczenia chemicznego między innymi w komórkach i tkankach nowotworowych oraz aortalnych zastawkach stenotycznych. Przedstawione zostaną też techniki monitorowania procesów przyłączania chemoterapeutyków do DNA poprzez zastosowanie metod RIXS i spektroskopii molekularnych w celu określenia rozkładu gęstości stanów elektronowych wokół kompleksów biomolekuł i metali obecnych w lekach mających właściwości antynowotworowe. Dodatkowo, pokazany będzie synchrotron jako "duża" infrastruktura diagnostyczna. 
+
+\end{document}

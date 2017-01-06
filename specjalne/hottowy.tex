@@ -1,0 +1,44 @@
+\documentclass[12pt, a4paper]{article}
+
+%polskie znaki
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+
+%matematyczne znaki i strza?eczki
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{title}{%
+  %\setlength{\headheight}{22pt}%
+  \fancyhf{}% No header/footer
+  %\renewcommand{\headrulewidth}{0pt}% No header rule
+  %\renewcommand{\footrulewidth}{0pt}% No footer rule
+  \fancyfoot[L]{FIZYKA DLA MEDYKA 2016}% Page number in Centre of footer
+  \fancyhead[L]{Wykład specjalny}
+
+}%
+%nowozdefiniowane symbole
+\newcommand{\n}{\mathbb{N}}
+\newcommand{\re}{\mathbb{R}}
+\newcommand{\limm}{\lim \limits_{x\rightarrow x_0}}
+\usepackage{graphicx}
+
+
+\usepackage[left=1 cm, right=1 cm, top=2 cm, bottom=2 cm]{geometry}
+
+\begin{document}
+
+\title{Perspektywy budowy zaawansowanej protezy dla niewidzących}
+\author{dr inż. Paweł Hottowy \\Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie \\Wydział Fizyki i Informatyki Stosowanej}
+\date {}
+\maketitle
+\thispagestyle{title}
+\textbf{Sobota 2.04, 15:00 - 16:00}
+\\
+
+Siatkówka oka – cienka warstwa tkanki nerwowej wyściełająca dno oka – jest kluczowym elementem układu wzrokowego. Widziany przez oko obraz jest w niej przetwarzany kolejno przez komórki światłoczułe, wyspecjalizowane interneurony i w końcu przez komórki zwojowe, które wysyłają do mózgu informację wizualną zakodowaną w postaci sekwencji impulsów nerwowych. Choroby siatkówki, takie jak retinopatia barwnikowa czy zwyrodnienie plamki żółtej, prowadzą do stopniowego zaniku widzenia wskutek degeneracji komórek światłoczułych. Jednak komórki zwojowe pozostają żywe i nawet w zaawansowanym stadium choroby zachowują zdolność do generacji impulsów nerwowych i wysyłania ich do mózgu. Otwiera to możliwość zbudowania elektronicznej protezy siatkówki dla niewidomych, w której obraz z miniaturowej kamery przetwarzany jest na serie impulsów elektrycznych pobudzających komórki zwojowe siatkówki i w ten sposób dostarczających do mózgu pacjenta informację wizualną. Pierwsze urządzenia bazujące na tej idei pojawiły się już na rynku. Ich zasadniczym ograniczeniem jest jednak niska rozdzielczość przestrzenna stymulacji elektrycznej – duże elektrody stymulują jednocześnie wiele neuronów, przez co przesyłane do mózgu informacje wizualne są mało precyzyjne, a w pewnych sytuacjach niespójne. W efekcie jakość oferowanego przez współczesne protezy sztucznego widzenia jest daleka od doskonałości. Punktem wyjścia do wykładu będzie pytanie: czy możliwe jest stworzenie inteligentnego implantu, zdolnego dostarczyć do mózgu niewidomego pacjenta informację identyczną do tej, jaka powstaje w zdrowej siatkówce przetwarzającej złożoną informację wizualną? Postaram się odpowiedzieć z punktu widzenia współczesnej wiedzy na temat działania siatkówki, rozwoju technologii mikroelektronicznych i nanofabrykacji, oraz ostatnich wyników laboratoryjnych dotyczących precyzyjnej stymulacji elektrycznej komórek nerwowych.
+
+\end{document}

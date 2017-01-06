@@ -1,0 +1,52 @@
+\documentclass[12pt, a4paper]{article}
+
+%polskie znaki
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+
+%matematyczne znaki i strza?eczki
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{title}{%
+  %\setlength{\headheight}{22pt}%
+  \fancyhf{}% No header/footer
+  %\renewcommand{\headrulewidth}{0pt}% No header rule
+  %\renewcommand{\footrulewidth}{0pt}% No footer rule
+  \fancyfoot[L]{FIZYKA DLA MEDYKA 2016}% Page number in Centre of footer
+  \fancyhead[L]{Sesja referatowa}
+
+}%
+
+%nowozdefiniowane symbole
+\newcommand{\n}{\mathbb{N}}
+\newcommand{\re}{\mathbb{R}}
+\newcommand{\limm}{\lim \limits_{x\rightarrow x_0}}
+\usepackage{graphicx}
+
+
+\usepackage[left=1 cm, right=1 cm, top=2 cm, bottom=2 cm]{geometry}
+
+\begin{document}
+
+\title{Segmentacja obrazów uzyskanych metodą pozytonowej tomografii emisyjnej z użyciem 18FDG}
+\author{Emilia Przybysz $^{1,2}$, Tomasz Bandurski$^2$, Marek Krośnicki $^1$\\1. Instytut Fizyki Teoretycznej i Astrofizyki Uniwersytetu Gdańskiego\\
+2. Zakład Informatyki Radiologicznej i Statystyki Gdańskiego Uniwersytety Medycznego}
+\date {}
+\maketitle
+\thispagestyle{title}
+Pozytonowa tomografia emisyjna (PET) jest badaniem obrazowym, pozwalającym na
+obrazowanie metabolizmu tkankowego, dzięki czemu wykrywalne są zmiany trudne lub niemożliwe do  zaobserwowania na obrazach uzyskanych metodami tomografii komputerowej lub rezonansu magnetycznego. 
+Podawana pacjentom fluorodeoksyglukoza znakowana jest izotopem 18F, który ulega rozpadowi promieniotwórczemu, emitując pozytony. Następnie dochodzi do anihilacji pozytonów z elektronami, w wyniku czego powstają kwanty promieniowania γ. Dokonując ich detekcji, zbiera się sygnał, na podstawie którego rekonstruowany jest obraz. Fluorodeoksyglukoza silniej akumuluje się w tkankach o podwyższonym metabolizmie (nowotwory, zmiany zapalne), więc te obszary dają silniejszy sygnał. Zmiany ocenia się przy pomocy wielkości zwanej SUV (Standardized Uptake Value) [2]. 
+Przy ocenie obrazów PET lekarz wyznacza obszary o podwyższonej  intensywności sygnału, co do których istnieje podejrzenie, że mogą być patologiczne. Głównym celem rozwoju metod automatycznej segmentacji obrazu jest stworzenie algorytmów, które pozwolą na lokalizację zmian oraz wyznaczenie ich objętości. Poprawnie działający algorytmy mógłby wspomóc lekarza w stawianiu diagnozy, tworząc system wspomagania decyzji.
+Istnieje wiele metod segmentacji obrazu, które są wykorzystywane w przypadku segmentacji 
+obrazów PET [1]. Zostaną one pokrótce przedstawione w niniejszym referacie. Zastosowanie wybranych metod zostanie zaprezentowane na przykładowych obrazach. Omówione będą też trudności, z którymi trzeba się zmierzyć przy automatycznej segmentacji obrazów PET.
+
+Bibliografia: \\
+1. B. Foster, U. Bagci, A. Mansoor, Z. Xu, D. J. Mollura, ,,A review on segmentation of positron emission tomography images”, Computers in Biology and Medicine 50: 76-96, 2014\\
+2. H. Sung-Cheng Huang, ,,Anatomy of SUV”, Nuclear Medicine and Biology, Vol. 27, 643–646, 2000
+
+\end{document}

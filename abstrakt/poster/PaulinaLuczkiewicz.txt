@@ -1,0 +1,13 @@
+Modyfikacja interferometrycznego uk³adu do obrazowania efektów oddzia³ywania œwiat³a laserowego na opatrunki hydro¿elowe.
+
+in¿. Paulina £uczkiewicz, prof. dr hab. Ewa Stachowska, dr Frans Meijer
+
+Wydzia³ Budowy Maszyn i Zarz¹dzania Politechniki Poznañskiej: p.luczkiewicz@o2.pl
+
+Laseroterapia jest stosunkowo now¹ i prê¿nie rozwijaj¹c¹ siê dziedzin¹ nauki. Jej pocz¹tki siêgaj¹ drugiej po³owy XX wieku. Wraz z up³ywem czasu zakres wykorzystywania laserów w medycynie stale siê powiêksza. Na szczególna uwagê zas³uguje wykorzystanie laserów terapeutycznych w dermatologii i medycynie estetycznej. Dziêki zabiegom laserowym mo¿liwe sta³o siê m.in. rozjaœnianie znamion i przebarwieñ bez interwencji chirurgicznej, zamykanie naczynek oraz trwa³e usuwanie ow³osienia, tatua¿y i brodawek. Oddzia³ywanie lasera na tkankê skutkuje nieprzyjemnym uczuciem spowodowanym absorpcj¹ promieniowania przez skórê, dlatego podczas zabiegów dermatologicznych coraz czêœciej wykorzystuje siê równie¿ opatrunki hydro¿elowe. Dziêki ich zastosowaniu du¿a grupa pacjentów przyznaje, ¿e ból jest zdecydowanie mniejszy. Opatrunki hydro¿elowe mog¹ byæ wykorzystane równie¿ po zabiegu do zabezpieczenia miejsca uwra¿liwionego przez dzia³anie lasera.
+W pracy przeprojektowano i przebudowano uk³ad optyczny z wykorzystaniem interferometru Macha-Zehndera i lasera He-Ne do badania w³aœciwoœci opatrunków hydro¿elowych (Kikgel HydroAid). Korzystaj¹c z tego uk³adu zbadano wp³yw promieniowania laserów terapeutycznych:  Fotona Dualis SP (laser Nd:YAG i Er:YAG) oraz QX Max (laser Nd:YAG) na opatrunki hydro¿elowe, w zale¿noœci od parametrów wi¹zek terapeutycznych: d³ugoœæ fali, fluencji, czêstotliwoœci i czasu trwania impulsu laserowego. 
+
+1. Goldberg D.J., Kaszuba A., Lasery i œwiat³o tom 2, Elsevier Urban & Partner, Wroc³aw 2009, ISBN 978-83-7609-132-7
+2. Kaszuba A., Adamski Z., Dermatologia dla kosmetologów, Wroc³aw 2010, 978-83-7609-147-1
+3. Ziêtek B., Lasery, Wydawnictwo Naukowe UMK, Toruñ 2008, ISBN 978-83-231-2195-4
+4.  www.kikgel.com.pl

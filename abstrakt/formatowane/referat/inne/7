@@ -1,0 +1,13 @@
+SEGMENTACJA OBRAZÓW UZYSKANYCH METODĄ POZYTONOWEJ TOMOGRAFII EMISYJNEJ Z UŻYCIEM 18FDG
+
+Emilia Przybysz, Tomasz Bandurski, Marek Krośnicki
+
+1. Instytut Fizyki Teoretycznej i Astrofizyki Uniwersytetu Gdańskiego;
+2. Zakład Informatyki Radiologicznej i Statystyki Gdańskiego Uniwersytety Medycznego
+
+Pozytonowa tomografia emisyjna (PET) jest badaniem obrazowym, pozwalającym na
+obrazowanie metabolizmu tkankowego, dzięki czemu wykrywalne są zmiany trudne lub niemożliwe do  zaobserwowania na obrazach uzyskanych metodami tomografii komputerowej lub rezonansu magnetycznego. 
+Podawana pacjentom fluorodeoksyglukoza znakowana jest izotopem 18F, który ulega rozpadowi promieniotwórczemu, emitując pozytony. Następnie dochodzi do anihilacji pozytonów z elektronami, w wyniku czego powstają kwanty promieniowania γ. Dokonując ich detekcji, zbiera się sygnał, na podstawie którego rekonstruowany jest obraz. Fluorodeoksyglukoza silniej akumuluje się w tkankach o podwyższonym metabolizmie (nowotwory, zmiany zapalne), więc te obszary dają silniejszy sygnał. Zmiany ocenia się przy pomocy wielkości zwanej SUV (Standardized Uptake Value) [2]. 
+Przy ocenie obrazów PET lekarz wyznacza obszary o podwyższonej  intensywności sygnału, co do których istnieje podejrzenie, że mogą być patologiczne. Głównym celem rozwoju metod automatycznej segmentacji obrazu jest stworzenie algorytmów, które pozwolą na lokalizację zmian oraz wyznaczenie ich objętości. Poprawnie działający algorytmy mógłby wspomóc lekarza w stawianiu diagnozy, tworząc system wspomagania decyzji.
+Istnieje wiele metod segmentacji obrazu, które są wykorzystywane w przypadku segmentacji 
+obrazów PET [1]. Zostaną one pokrótce przedstawione w niniejszym referacie. Zastosowanie wybranych metod zostanie zaprezentowane na przykładowych obrazach. Omówione będą też trudności, z którymi trzeba się zmierzyć przy automatycznej segmentacji obrazów PET.

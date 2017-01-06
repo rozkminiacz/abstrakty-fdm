@@ -1,0 +1,27 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+ 
+\title{Dawka integralna w radioterapii raka gruczołu krokowego technikami dynamicznymi}
+\author{Anna Zaleska}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\textbf{Uniwersytet Warszawski, Wydział Fizyki}
+\\
+\textbf{Wielkopolskie Centrum Onkologii im. Marii Skłodowskiej- Curie}
+
+\end{center}
+
+W ostatnich latach zauważa się wzrost zastosowania technik dynamicznych w radioterapii raka prostaty względem klasycznej techniki 3D CRT (ang. three-Dimensional Conformal Radiation Therapy). Techniki dynamiczne, to techniki wykorzystujące modulację intensywności wiązki. Należą do nich IMRT (ang. Intensity Modulated Radiation Therapy), VMAT (ang. Volumetric Moulated Arc Therapy) oraz HT (ang. Helical Therapy). Gwarantują one lepszą konformalność izodoz terapeutycznych oraz bardziej jednorodny rozkład dawki w obrębie PTV (ang. Planning Target Volume) niż w przypadku 3D CRT.
+
+Zastosowanie technik dynamicznych powoduje jednak znaczne zwiększenie obszaru napromieniania tkanek zdrowych. Fakt ten to przyczyna wzrostu NTID (ang. Normal Tissue Integral Dose) w technikach dynamicznych wzgledem 3D CRT. 
+
+Dawkę integralną definiuje się jako iloczyn średniej dawki otrzymywanej przez daną strukturę oraz objętości tej struktury. \footnote{"Integral radiation dose to normal structures with conformal external beam radiation", Aoyama et al, Int J Radiat Oncol Biol Phys, 2006, 64: 962-967} O wartości dawki integralnej dla danej struktury decyduje przede wszystkim wybór techniki napromieniania, zastosowana energia oraz wykorzystany do obliczeń algorytm,\footnote{"Integral dose: Comparison between four techniques for prostate radiotherapy", Ślosarek et al, Rep of Pract Oncol and Radiotherapy, 2015, 20: 99–103} jednak decydującymi czynnikami są też geometria napromieniania oraz sposób optymalizacji planu leczenia. 
+
+W wystąpieniu zostanie przedstawiony wpływ wyżej wymienionych czynników na wartość dawki integralnej w narządach krytycznych oraz obszarze tkanek zdrowych w lokalizacji raka prostaty.
+\end{document}

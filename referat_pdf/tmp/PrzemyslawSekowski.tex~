@@ -1,0 +1,44 @@
+\documentclass[12pt, a4paper]{article}
+
+%polskie znaki
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+
+%matematyczne znaki i strza?eczki
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancypagestyle{title}{%
+  %\setlength{\headheight}{22pt}%
+  \fancyhf{}% No header/footer
+  %\renewcommand{\headrulewidth}{0pt}% No header rule
+  %\renewcommand{\footrulewidth}{0pt}% No footer rule
+  \fancyfoot[L]{FIZYKA DLA MEDYKA 2016}% Page number in Centre of footer
+  \fancyhead[L]{Sesja referatowa}
+
+}%
+
+%nowozdefiniowane symbole
+\newcommand{\n}{\mathbb{N}}
+\newcommand{\re}{\mathbb{R}}
+\newcommand{\limm}{\lim \limits_{x\rightarrow x_0}}
+\usepackage{graphicx}
+
+
+\usepackage[left=1 cm, right=1 cm, top=2 cm, bottom=2 cm]{geometry}
+
+\begin{document}
+
+\title{Badanie wpływu wartości średniego potencjału jonizacyjnego ośrodka na zasięg jonów stosowanych w hadronoterapii.}
+\author{Przemysław Sękowski \\ Uniwersytet Warszawski}
+\date {}
+\maketitle
+\thispagestyle{empty}
+
+Terapia z użyciem jonów o energiach do kilkuset MeV/u jest bardzo obiecująca, nie tylko w przypadku chorób nowotworowych.  Jej rozwój wymaga wielu testów oraz dokładnych obliczeń teoretycznych. Jednym z głównych problemów, stosowanych obecnie modeli,  jest średni potencjał jonizacyjny ośrodka $I$, przez który przechodzi cząstka naładowana. Wpływa on silnie na zasięg cząstek - im wyższa jego wartość tym większy zasięg [1]. Na przykład wartość średniego potencjału wody waha się w przedziale 67,2 eV - 85 eV [2,3], co daje centymetrowy rozrzut zasięgów jonów węgla o energii ??? . Podczas leczenia istotna jest precyzja, dlatego bardzo ważne jest, by w zależności od głębokości umiejscowienia zmiany nowotworowej, dokładnie określić wartość energii jaką powinny mieć cząstki, a to jest możliwe jedynie wtedy, gdy w modelach będzie stosowana "rzeczywista" wartość potencjału $I$. 
+Podczas prezentacji przedstawiona zostanie próba estymacji średniego potencjału jonizacyjnego w oparciu o  wyniki literaturowe.
+
+\end{document}

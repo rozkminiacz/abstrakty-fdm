@@ -1,0 +1,10 @@
+DYNAMIKA DOTYKU JAKO CECHA BIOMETRYCZNA    
+
+Jarosław Michalik, Elwira Nowiszewska
+
+Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie, WFiIS, SKNFM Kerma
+
+Urządzenia mobilne stanowią istotny element współczesnego świata, co stwarza możliwość akwizycji oraz analizy różnorodnych sygnałów biometrycznych. 
+Jednym z nich jest dynamika dotyku, która umożliwia ocenę motoryki badanej osoby oraz sprawdzenie jak wpływają na nią różne czynniki - zewnętrzne i wewnętrzne. Celem projektu, jest realizacja narzędzia - aplikacji mobilnej na platformę Android, zdolnej zebrać omówione dane biometryczne oraz dokonać ich analizy. 
+
+Z wykorzystaniem stworzonej aplikacji otrzymano oraz przebadano próbki pochodzące od osób przemęczonych oraz osób w stanie upojenia alkoholowego, a następnie porównano uzyskane rezultaty z wynikami pochodzącymi od grupy kontrolnej - osób wypoczętych i zdrowych. Na podstawie uzyskanych wyników zbudowano wektor cech, starając się znaleźć wielkości charakteryzujące sygnał i opisujące go w sposób jednoznaczny. Celem projektu jest stworzenie narzędzia o praktycznym zastosowaniu - podręcznego miernika zdolności psychomotorycznej, który posłużyć może osobom, których zawodowa praca wymaga koncentracji i precyzyjnej sprawności ruchowej.

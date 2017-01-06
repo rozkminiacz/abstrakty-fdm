@@ -1,0 +1,10 @@
+Inżynierskie wspomaganie przedoperacyjne przy wykorzystaniu metod szybkiego prototypowania
+
+inż. Magdalena Żukowska
+
+Politechnika Poznańska, Wydział Budowy Maszyn i Zarządzania
+
+Na przestrzeni ostatnich kilku lat obserwuje się dynamiczny rozwój metod szybkiego prototypowania, co ma bezpośredni wpływ na zmiany zachodzące w działach powiązanych z inżynierią biomedyczną oraz szeroko pojętą medycyną. Coraz częściej dokumentuje się powodzenie skomplikowanych operacji przeprowadzanych w oparciu o wykonany metodami przyrostowymi model medyczny, będący faktycznym odzwierciedleniem stanu organu pacjenta. Istotną kwestią we wspomaganiu przedoperacyjnym jest zaprezentowanie wizualizacji przestrzennej narządu zmienionego chorobowo. Dzięki wykorzystaniu obrazów TK/MRI, inżynier może wykonać segmentację, której efektem będzie obraz 3D. Działania te wsparte wykorzystaniem metod szybkiego prototypowania, pozwalają na sprawne wykonanie modelu odzwierciedlającego realny stan obszaru chorego. Uzyskana w ten sposób indywidualizacja, pozwala na bezpieczniejsze wykonanie operacji oraz znaczne skrócenie jej trwania, gdyż zarówno lekarz jak i pacjent mogą się lepiej do niej przygotować.
+
+Celem pracy jest przedstawienie metodyki tworzenia modelu medycznego nerki ze zmianami ogniskowymi przy wykorzystaniu metod szybkiego prototypowania. Metodyka obejmuje wszelkie prace związane z segmentacją, obróbką modelu, generowaniem obiektu przestrzennego wraz z zapisem w formacie STL oraz doborem odpowiedniej metody szybkiego prototypowania. Dodatkowo praca ma charakter porównawczy. Skonfrontowane zostaną ze sobą dwie metody szybkiego prototypowania: FDM (Fused Deposition Modeling) oraz 3DP (3D Printing), przy użyciu których wykonano modele. 
+

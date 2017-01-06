@@ -1,0 +1,3 @@
+Możliwości zastosowania sygnałów biologicznych (EMG) w systemach układów sterowania.
+
+Referat ma na celu przedstawienie słuchaczom teorii biologicznego sprzężenia zwrotnego z wykorzystaniem potencjału elektrycznego aktywności mięśni (EMG). Układy takie stosowane są do realizacji zadań sterowania urządzeniami. W treści referatu przedstawione są dotychczas opracowane rozwiązania na podstawie źródeł literaturowych oraz efektów prac badawczych Politechniki Warszawskiej. W skład prezentacji będzie wchodzić przegląd urządzeń służących do detekcji oraz przetwarzania sygnału EMG, jak i obiektów sterowania.

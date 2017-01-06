@@ -1,0 +1,13 @@
+STATYSTYCZNA OCENA ROZKŁADU DAWKI W  PLANACH LECZENIA PRZYGOTOWANYCH TECHNIKAMI DYNAMICZNYMI
+
+
+Edyta Dąbrowska1,2, Jacek Gałecki3, Paweł Kukołowicz1, Anna Zawadzka1
+
+
+1Zakład Fizyki Medycznej, Centrum Onkologii-Instytut im. Marii Skłodowskiej-Curie w Warszawie
+2Zakład Fizyki Biomedycznej, Uniwersytet Warszawski
+3Zakład Teleradioterapii, Centrum Onkologii-Instytut im. Marii Skłodowskiej-Curie w Warszawie
+
+Modulowana objętościowo technika łukowa VMAT jest nowoczesną formą techniki z modulowaną intensywnością dawki IMRT. Wykonano szereg prac, na podstawie których nie można jednoznacznie stwierdzić, która z wymienionych technik umożliwia przygotowanie korzystniejszego dla pacjenta planu leczenia. Przez korzystny plan leczenia należy rozumieć precyzyjne objęcie zaplanowanego obszaru napromieniania izodozą terapeutyczną, przy jednoczesnym zminimalizowaniu dawek, które w trakcie leczenia otrzymają tkanki zdrowe. 
+	Celem niniejszej pracy było porównanie jakości planów leczenia przygotowanych techniką IMRT oraz techniką VMAT dla 13 pacjentek napromienianych po mastektomii. Na podstawie przygotowanych planów leczenia porównano zarówno objęcie obszaru tarczowego dawką terapeutyczną, jak i dawki zdeponowane w narządach krytycznych. Porównana została także liczba jednostek monitorowych. Na podstawie wyeksportowanych z systemu planowania leczenia histogramów DVH wygenerowano dla obu technik uśrednione histogramy dla narządów krytycznych, istotnych podczas planowania leczenia dla pacjentek napromienianych po mastektomii. Różnice statystyczne pomiędzy analizowanymi parametrami zostały wyznaczone testem Wilcoxona.
+	Wyniki niniejszej pracy wykazały, że jakość przygotowanych planów leczenia nie zależy od zastosowanej techniki. Różnice w wartościach porównywanych parametrów w większości nie są istotne statystycznie (p>0.05) i nie mają znaczenia klinicznego. Niewątpliwą zaletą techniki VMAT w stosunku do techniki IMRT jest jednak realizacja planów leczenia z mniejszą liczbą jednostek monitorowych.
