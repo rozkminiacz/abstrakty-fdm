@@ -17,6 +17,13 @@ public class Main {
                     System.out.println("Terminated");
                 })
                 .flatMapIterable(abstractModels -> abstractModels)
-                .subscribe(System.out::println);
+                .subscribe(model -> {
+                    try{
+                        FileUtil.writeToTexFile(model);
+                    }
+                    catch (Exception e){
+                        System.out.println(e.getMessage());
+                    }
+                });
     }
 }
