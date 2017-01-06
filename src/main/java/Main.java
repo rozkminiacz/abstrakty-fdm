@@ -10,12 +10,7 @@ public class Main {
                 .subscribeOn(Schedulers.immediate())
                 .observeOn(Schedulers.immediate())
                 .doOnError(System.out::print)
-                .doOnCompleted(()->{
-                    System.out.println("Completed");
-                })
-                .doOnTerminate(()->{
-                    System.out.println("Terminated");
-                })
+                .doOnCompleted(()->System.out.println("Completed"))
                 .flatMapIterable(abstractModels -> abstractModels)
                 .subscribe(model -> {
                     try{

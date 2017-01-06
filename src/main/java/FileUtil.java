@@ -8,14 +8,29 @@ public class FileUtil {
     private static final String EXTENSION = ".tex";
 
     public static void writeToTexFile(final AbstractModel model) throws IOException{
-        String title = model.getTitle()+model.getAuthor()+EXTENSION.replace("", "");
+        String title = model.getAuthor().replaceAll("\\s+","")+EXTENSION;
+
         System.out.println("Writing to "+title);
+
         PrintWriter writer = new PrintWriter(title, "UTF-8");
+
         writer.println(appendHeaders());
         writer.println(beginDocument());
         writer.println(appendDocumentTitle(model));
+        writer.println(afterTitle());
+
+        writer.println(model.getAbstractBody());
+
         writer.println(endDocument());
         writer.close();
+    }
+
+    private static String afterTitle() {
+        return "\\date {}\n" +
+                " \n" +
+                "\\maketitle\n" +
+                " \n" +
+                "\\thispagestyle{title}";
     }
 
     private static String appendDocumentTitle(final AbstractModel model){
@@ -33,12 +48,9 @@ public class FileUtil {
     private static String appendHeaders(){
         return  "\\documentclass[12pt, a4paper]{article}\n" +
                 " \n" +
-                "%polskie znaki\n" +
-                " \n" +
                 "\\usepackage{polski}\n" +
                 "\\usepackage[utf8]{inputenc}\n" +
                 " \n" +
-                "%matematyczne znaki i strza?eczki\n" +
                 "\\usepackage{amsmath}\n" +
                 "\\usepackage{amssymb}\n" +
                 "\\usepackage{graphicx}\n" +
@@ -50,10 +62,9 @@ public class FileUtil {
                 "  %\\renewcommand{\\headrulewidth}{0pt}% No header rule\n" +
                 "  %\\renewcommand{\\footrulewidth}{0pt}% No footer rule\n" +
                 "  \\fancyfoot[R]{FIZYKA DLA MEDYKA 2017}% Page number in Centre of footer\n" +
-                "  \\fancyhead[R]{Sesja posterowa}\n" +
+                "  \\fancyhead[R]{FDM 2017}\n" +
                 " \n" +
                 "}%\n" +
-                "%nowozdefiniowane symbole\n" +
                 " \n" +
                 "\\usepackage{graphicx}\n" +
                 " \n" +
