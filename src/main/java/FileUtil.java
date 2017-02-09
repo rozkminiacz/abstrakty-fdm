@@ -1,5 +1,8 @@
+import rx.Observable;
+
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Calendar;
 
 /**
  * Created by michalik on 06.01.17
@@ -23,6 +26,21 @@ public class FileUtil {
 
         writer.println(endDocument());
         writer.close();
+    }
+
+    public static Observable<String> writeBackupJson(String s){
+        try{
+            String fileName = Calendar.getInstance().getTimeInMillis()+".json";
+            PrintWriter writer = new PrintWriter(fileName, "UTF-8");
+            writer.append(s);
+            writer.close();
+            System.out.println("Saved file");
+            return Observable.just(fileName);
+        }
+        catch (IOException e){
+            System.out.println(e);
+        }
+        return Observable.just("No file saved");
     }
 
     private static String afterTitle() {
